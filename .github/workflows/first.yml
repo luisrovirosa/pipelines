@@ -5,3 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hola"
+  manual:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hola"
+    suspend:
